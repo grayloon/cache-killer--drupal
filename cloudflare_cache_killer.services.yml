@@ -1,0 +1,7 @@
+services:
+  logger.channel.cloudflare_cache_killer:
+    parent: logger.channel_base
+    arguments: ['cloudflare_cache_killer']
+
+  Drupal\cloudflare_cache_killer\CloudflarePurgeService:
+    autowire: true

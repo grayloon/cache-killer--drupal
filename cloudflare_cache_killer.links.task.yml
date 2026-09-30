@@ -1,0 +1,5 @@
+cloudflare_cache_killer.node_purge:
+  title: 'Purge Cloudflare cache'
+  route_name: cloudflare_cache_killer.node_purge
+  base_route: entity.node.canonical
+  weight: 50

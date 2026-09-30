@@ -1,0 +1,13 @@
+cloudflare_cache_killer.node_purge:
+  path: '/node/{node}/cloudflare-purge'
+  defaults:
+    _form: '\Drupal\cloudflare_cache_killer\Form\NodePurgeForm'
+    _title: 'Purge Cloudflare cache'
+  requirements:
+    _permission: 'purge cloudflare cache'
+    node: \d+
+  options:
+    _admin_route: TRUE
+    parameters:
+      node:
+        type: entity:node

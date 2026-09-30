@@ -1,0 +1,7 @@
+name: Cloudflare Cache Killer
+type: module
+description: 'Purges individual node URLs from the Cloudflare cache, manually or automatically when a node is updated.'
+package: Performance
+core_version_requirement: ^11.2
+dependencies:
+  - drupal:node

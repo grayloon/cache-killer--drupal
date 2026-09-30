@@ -1,0 +1,3 @@
+purge cloudflare cache:
+  title: 'Purge Cloudflare cache'
+  description: 'Manually purge a node URL from the Cloudflare cache.'
