@@ -1,5 +1,5 @@
 {
-    "name": "drupal/cloudflare_cache_killer",
+    "name": "grayloon/cloudflare_cache_killer",
     "description": "Purges individual node URLs from the Cloudflare cache, manually or automatically when a node is updated.",
     "type": "drupal-module",
     "license": "GPL-2.0-or-later",
